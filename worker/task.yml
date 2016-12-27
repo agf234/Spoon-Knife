@@ -4,4 +4,5 @@ jobs:
   plan:
   - get: 10m
   - task: smoke-tests
-    # ...
+    - run: sh 
+    - args: [echo, hola]
